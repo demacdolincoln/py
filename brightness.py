@@ -141,7 +141,7 @@ def downBright(percent):
 	subprocess.call(['notify-send', '-u', 'normal', 'Brightness', str(brilho)])
 
 def setBright(percent):
-	'''aumenta o brilho da tela'''
+	'''define o brilho da tela'''
 
 	newPerc = str(percent)
 
